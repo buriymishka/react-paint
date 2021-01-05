@@ -45,6 +45,11 @@ const Canvas = observer(() => {
           username: canvasState.username,
           method: 'connection'
         }))
+        setInterval(() => {
+          socket.send(JSON.stringify({
+            method: 'DO_NOT_SLEEP'
+          }))
+        }, 20000)
       }
       socket.onmessage = (e) => {
         let msg = JSON.parse(e.data)
