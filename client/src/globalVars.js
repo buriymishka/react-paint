@@ -1,6 +1,6 @@
 const GL = {
-  HOST: 'http://localhost:5000',
-  WS_HOST: 'ws://localhost:5000'
+  HOST: 'https://mihail-react-paint.herokuapp.com',
+  WS_HOST: 'https://mihail-react-paint.herokuapp.com'
 }
 
 export default GL

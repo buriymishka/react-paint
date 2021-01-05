@@ -1,0 +1,23 @@
+{
+  "name": "react-paint",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buriymishka/react-paint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buriymishka/react-paint/issues"
+  },
+  "homepage": "https://github.com/buriymishka/react-paint#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
