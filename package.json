@@ -4,7 +4,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server/index.js"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
