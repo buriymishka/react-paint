@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/buriymishka/react-paint/issues"
   },
-  "homepage": "https://github.com/buriymishka/react-paint#readme",
-  "dependencies": {
-    "cross-env": "^7.0.3"
-  }
+  "homepage": "https://github.com/buriymishka/react-paint#readme"
 }
