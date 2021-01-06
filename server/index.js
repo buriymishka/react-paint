@@ -43,6 +43,7 @@ app.post('/image', (req, res) => {
     fs.writeFileSync(path.resolve(__dirname, 'files', `${req.query.id}.jpg`), data, 'base64')
     return res.status(200).json({message: "Загружено"})
   } catch (e) {
+    console.log(e)
     return res.status(500).json('error')
   }
 })
