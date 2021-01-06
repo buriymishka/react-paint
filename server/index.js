@@ -3,7 +3,7 @@ const app = express()
 const WSServer = require('express-ws')(app)
 const aWss = WSServer.getWss()
 const cors = require('cors')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 const fs = require('fs')
 const path = require('path')
 

@@ -12,5 +12,10 @@ canvas {
   border: 1px solid black;
   background-color: white;
   margin: auto;
-  margin-top: $toolbar-height *3;
+  margin-top: $toolbar-height * 3;
+}
+
+.gif {
+  max-height: 100%;
+  max-width: 100%;
 }

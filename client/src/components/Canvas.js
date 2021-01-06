@@ -13,6 +13,7 @@ import axios from 'axios'
 import Circle from "../tools/Circle";
 import Line from "../tools/Line";
 import GL from "../globalVars";
+import previewImg from '../assets/img/preview.gif'
 
 const Canvas = observer(() => {
 
@@ -119,6 +120,7 @@ const Canvas = observer(() => {
     <div className="canvas">
       <Modal show={modal} onHide={() => {
       }}>
+        <div><img className="gif" src={previewImg} /></div>
         <Modal.Header>
           <Modal.Title>Введите ваше имя</Modal.Title>
         </Modal.Header>
