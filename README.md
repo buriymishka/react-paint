@@ -1,4 +1,4 @@
-![GitHub Logo](https://mihail-react-paint.herokuapp.com/static/media/preview.aed74de5.gif)
+![GitHub Logo](https://github.com/buriymishka/nuxt-chat/blob/master/nuxt%20(1).gif)
 
 # Getting Started with Create React App
 
