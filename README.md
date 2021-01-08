@@ -1,4 +1,4 @@
-![GitHub Logo](https://mihail-react-paint.herokuapp.com/static/media/preview.aed74de5.gif)
+![GitHub Logo](https://github.com/buriymishka/react-paint/blob/master/rea.gif)
 
 # Getting Started with Create React App
 
