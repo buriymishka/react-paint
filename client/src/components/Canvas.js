@@ -120,7 +120,7 @@ const Canvas = observer(() => {
     <div className="canvas">
       <Modal show={modal} onHide={() => {
       }}>
-        <h1>ПРОСТО ПОДЕЛИСЬ С ДРУГОМ ССЫЛКОЙ</h1>
+        <h1 style={{margin: 20}}>ПРОСТО ПОДЕЛИСЬ ССЫЛКОЙ С ДРУГОМ!</h1>
         <div><img className="gif" src={previewImg} /></div>
         <Modal.Header>
           <Modal.Title>Введите ваше имя</Modal.Title>
